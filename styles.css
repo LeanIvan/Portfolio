@@ -10,7 +10,7 @@ html {
 body {
     margin: 0;
     background-color: #f4f4f4; 
-    background-image: url("/Images/fondo.gif");
+    background-image: url("/Portfolio/Images/fondo.gif");
     background-repeat: repeat; 
     background-size: 50% 50%; 
     background-position: top left; 
