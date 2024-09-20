@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="event.js" ></script>
+
+
+</head>
+<body></body>
+
+
+    <!-- Encabezado / Barra de Navegación -->
+    <header class="barra-navegacion">
+        <a href="#"><h1>Mi Portafolio</h1></a>
+        <nav class="elementos-de-navegacion">
+            <a href="#sobre-mi">Sobre Mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#habilidades">Tecnologías</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+
+
+    <!-- Sección de presentación -->
+    <section class="sobre-mi" id="sobre-mi">
+        <div class="contenedor-perfil">
+            <img src="/Images/icono-usuario.avif" alt="Mi Imagen" class="imagen-perfil">
+            <div class="info-perfil">
+                <h2>HOLA!</h2>
+                <p class="descripcion">Presentación ultra powerosa.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Sección de proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2>Mis Proyectos</h2>
+    
+        <div class="contenedor-proyectos">
+            <div class="tarjeta-proyecto">
+                <img src="Images/irwins.png" alt="imagen de proyecto" class="imagen-proyecto">
+                <div class="info-proyecto">
+                    <h3>Irwin´s Revenge</h3>
+                    <p>Juego de consola creado con C++ Como proyecto para Laboratorio I.</p>
+                </div>
+            </div>
+    
+            <div class="tarjeta-proyecto">
+                <img src="Images/cod.png" alt="imagen de proyecto" class="imagen-proyecto">
+                <div class="info-proyecto">
+                    <h3>Carlos Duty Zombies</h3>
+                    <p>Juego creado con C++ y la librería SFML Como proyecto para Programación II.</p>
+                </div>
+            </div>
+
+            <div class="tarjeta-proyecto">
+                <img src="Images/Gestor-Productos.png" alt="imagen de proyecto" class="imagen-proyecto">
+                <div class="info-proyecto">
+                    <h3>Gestor de Productos</h3>
+                    <p>Creado con C# utilizando .NetFramework y ADO.NET para conexión a base de datos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Sección de habilidades -->
+    <section id="habilidades" class="seccion-habilidades">
+        <h1 class="titulo-seccion">Tecnologías</h1>
+        <div class="contenedor-habilidades">
+            <img src="Images/c++.png" alt="Logo de C++" title="C++" class="icono-habilidad">
+            <img src="Images/csharp.png" alt="Logo de C#" title="C#" class="icono-habilidad">
+            <img src="Images/nedi.png" alt="Logo de .NET" title=".NET" class="icono-habilidad">
+            <img src="Images/sql.png" alt="Logo de SQL Server" title="SQL Server" class="icono-habilidad">
+            <img src="Images/html5.png" alt="Logo de HTML5" title="HTML5" class="icono-habilidad">
+            <img src="Images/javascript.png" alt="Logo de JavaScript" title="JavaScript" class="icono-habilidad">
+            <img src="Images/css3.png" alt="Logo de CSS3" title="CSS3" class="icono-habilidad">
+        </div>
+    </section>
+
+
+
+    <!-- Flecha para volver arriba -->
+    <a href="#" class="volver-arriba">
+        <img src="Images/flecha.png" alt="Volver arriba" class="icono-flecha">
+    </a>
+
+
+
+
+    <!-- Sección de formulario de contacto -->
+    <div class="contenedor-formulario-contacto">
+        <section id="contacto" class="seccion-formulario-contacto">
+            <h2>Contacto</h2>
+            <p>Deja tus datos y me pondré en contacto contigo.</p>
+            <form action="#" method="post" class="formulario-contacto">
+                <div class="grupo-formulario">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="grupo-formulario">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="grupo-formulario">
+                    <textarea name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+                </div>
+                <button type="submit" class="boton-enviar">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+
+
+
+    <!-- Footer con links -->
+    <footer class="pie-pagina">
+        <div class="contenedor-pie">
+            <h3>Mis Redes</h3>
+            <div class="info-contacto">
+                <a href="#"  >
+                  <i class="fab fa-twitter"></i> Twitter
+                </a> |
+                <a href="https://github.com/LeanIvan" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a> |
+                <a href="https://www.linkedin.com/in/ivan-leani-26bb08276/" target="_blank" title="linkedin">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
