@@ -109,8 +109,14 @@ a:hover {
 
 .sobre-mi {
     padding: 40px 20px;
-    color: #333; 
+    color: white; 
     text-align: center; 
+
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('ruta-a-tu-gif.gif');
+    background-size: cover;
+    background-position: center;
+
 }
 
 .contenedor-fondo {
@@ -141,12 +147,14 @@ a:hover {
 
 .info-perfil {
     margin-top: 20px;
+
+
 }
 
 .info-perfil h2 {
     font-size: 2rem;
     font-weight: 600; 
-    color: #333; 
+    color: white; 
 }
 
 .info-perfil p {
@@ -154,7 +162,7 @@ a:hover {
     line-height: 1.6;
     max-width: 600px;
     margin: 0 auto;
-    color: #666; 
+    color: white; 
     opacity: 1; 
     transform: scale(0.95); 
     font-weight: normal; 
@@ -172,14 +180,15 @@ a:hover {
     transform: scale(1.05); 
     font-weight: bold; 
     animation: highlightText 1s forwards; 
+
 }
 
 @keyframes highlightText {
     from {
-        color: #666; 
+        color: white; 
     }
     to {
-        color: #333; 
+        color: whitesmoke; 
     }
 }
 
